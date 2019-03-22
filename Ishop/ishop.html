@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <meta charset="utf-8" />
+  <title>Интернет-магазин</title>
+</head> 
+<body> 
+  <div id="container"></div> 
+      
+  <script src="https://unpkg.com/react@15/dist/react.js"></script> 
+  <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script> 
+      
+  <script src="ishop.js"></script>
+  <link rel="stylesheet" type="text/css" href="ishop.css" />
+  
+
+  <script>
+    var listText='Каталог интернет-магазина';
+    var shop=[ 
+      {id:1416, name:'джинсы',price:50,urlFoto : "https://ru.depositphotos.com/72740849/stock-photo-four-pairs-of-blue-jeans.html", number:156}, 
+      {id:5216, name:'футболка',price:20,urlFoto:"https://ru.depositphotos.com/19858699/stock-photo-blank-white-t-shirt-with.html", number:254}, 
+      {id:5916, name:'туфли',price:41,urlFoto:'https://ru.depositphotos.com/11194329/stock-photo-high-heel-shoes.html', number:178}, 
+      {id:1516, name:'блуза',price:30,urlFoto:'https://ru.depositphotos.com/52350831/stock-photo-blue-shirt-isolated-on-white.html', number:100}, 
+      {id:7816, name:'свитер',price:45,urlFoto:'https://ru.depositphotos.com/14175242/stock-photo-sweater-with-a-pattern-of.html', number:59}, 
+      {id:5450, name:'кардиган',price:50,urlFoto:'https://ru.depositphotos.com/58622541/stock-photo-outdoors-portrait-of-a-young.html', number:80}, 
+      {id:5447, name:'рубашка',price:35,urlFoto:'https://ru.depositphotos.com/23680273/stock-photo-blue-shirt-isolated-on-white.html', number:99}, 
+      {id:2486, name:'юбка',price:45,urlFoto:'https://ru.depositphotos.com/4618500/stock-photo-jeans-skirt-on-white-background.html', number:110}, 
+      {id:3416, name:'брюки',price:75,urlFoto:'https://ru.depositphotos.com/19188669/stock-photo-close-up-of-mans-business.html', number:100}, 
+      {id:4416, name:'платье',price:90,urlFoto:'https://ru.depositphotos.com/8984940/stock-photo-brunette-in-waving-dress.html', number:150}, 
+      {id:6416, name:'куртка',price:150,urlFoto:'https://ru.depositphotos.com/10513998/stock-photo-red-jacket.html', number:65}, 
+      {id:416, name:'пальто',price:200,urlFoto:'https://ru.depositphotos.com/5841828/stock-photo-beautiful-young-woman-in-red.html', number:100}, 
+      {id:75416, name:'шорты',price:48,urlFoto:'https://ru.depositphotos.com/25218147/stock-photo-mens-shorts-isolated-on-white.html', number:80}, 
+      {id:75419, name:'ремень',price:90,urlFoto:'https://ru.depositphotos.com/4256838/stock-photo-black-leather-belt.html', number:50}, 
+      {id:54216, name:'сумка',price:150,urlFoto:'https://ru.depositphotos.com/48877983/stock-photo-fashionable-woman-with-red-handbag.html', number:50}, 
+      {id:541666, name:'сапоги',price:200,urlFoto:'https://ru.depositphotos.com/24675037/stock-photo-womans-boots-isolated.html', number:80}, 
+      {id:54160, name:'носки',price:1,urlFoto:'https://ru.depositphotos.com/24034673/stock-photo-striped-socks-isolated-on-white.html', number:200}, 
+      {id:55416, name:'шарф',price:15,urlFoto:'https://ru.depositphotos.com/14294251/stock-photo-braided-scarf.html', number:50}, 
+    ];
+    ReactDOM.render(
+      React.createElement(Ishop,{list:listText,table:shop,}), 
+      document.getElementById('container') 
+    );
+
+  </script>
+
+</body> 
+</html>
