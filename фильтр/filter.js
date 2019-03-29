@@ -48,8 +48,8 @@ this.setState({curValue:"",isChecked:false},this.updateList)
           .map(value => React.createElement(FilterList, {key: value, text: value}));
 
       return React.DOM.div({className: 'filter'},
-          React.DOM.input({type: 'checkbox', Checked: this.state.isChecked, onClick: this.checkBoxClicked}),
-          React.DOM.input({type: 'text', Value: this.state.curValue, onChange: this.inputChanged}),
+          React.DOM.input({type: 'checkbox', checked: this.state.isChecked, onClick: this.checkBoxClicked}),
+          React.DOM.input({type: 'text', value: this.state.curValue, onChange: this.inputChanged}),
           React.DOM.input({type: 'button', value:'Сброс', onClick: this.inputClick}),
           React.DOM.ul({className: 'filter-list'}, items),
       );
