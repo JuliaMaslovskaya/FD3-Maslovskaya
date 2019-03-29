@@ -1,0 +1,30 @@
+.Shop
+{
+  
+  width: 800px;
+  padding: 3px 7px;
+  background-color: white;
+}
+
+.Shop.ShopTable
+{
+  font-weight: bold;
+  font-size: 20 pt;
+  
+  text-align-last: center;
+}
+
+th{
+    text-align-last: center;
+   background-color: beige;
+}
+td{
+    background-color: lightblue; 
+   
+    text-align-last: center;
+    
+}
+.selected {
+  background-color: orangered;
+}
+
