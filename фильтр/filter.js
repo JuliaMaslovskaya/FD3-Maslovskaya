@@ -9,7 +9,7 @@ var Filter = React.createClass({
   getInitialState: function () {
       return {
           items: this.props.list,
-         //isclick: false,
+         
           isChecked: false,
           curValue: '',
       };
@@ -39,9 +39,9 @@ var Filter = React.createClass({
       
   },
 inputClick: function(EO){
-    //this.setState({isclick: EO.target.click}, this.updateList);
-this.setState({curValue:"",isChecked:false},this.updateList)}
-,
+    
+this.setState({curValue:"",isChecked:false},this.updateList)
+},
 
   render: function () {
       var items = this.state.items
