@@ -1,0 +1,48 @@
+td {
+    padding: 5px;
+}
+
+.marked {
+    background: #c7c7c7;
+}
+
+.mode {
+    text-align: left;
+}
+
+.mode label {
+    display: block;
+}
+
+.mode input {
+    width: 100%;
+    padding: 5px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.formErrors {
+    color: #E5474C;
+    font-size: 14px;
+}.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container * {
+    box-sizing: border-box;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.product-list {
+    margin-bottom: 12px;
+}
+
+
+/*# sourceMappingURL=bundle.css.map*/

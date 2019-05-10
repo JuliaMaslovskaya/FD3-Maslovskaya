@@ -1,0 +1,22 @@
+
+[
+  {"id" : 1 , "productName": "джинсы" , "price" : 50 , "imageUrl" :  " https://ru.depositphotos.com/72740849/stock-photo-four-pairs-of-blue-jeans.html " , "quantity" : 156 },
+    {"id" : 2 , "productName" : " футболка " , "price" : 20 , "imageUrl" : " https://ru.depositphotos.com/19858699/stock-photo-blank-white-t-shirt-with.html " , "quantity" : 254 },
+    {"id" : 3 , "productName" : " туфли " , "price" : 41 , "imageUrl" : " https://ru.depositphotos.com/11194329/stock-photo-high-heel-shoes.html " , "quantity" : 178 },
+    {"id" : 4 , "productName" : " блуза " , "price" : 30 , "imageUrl" : " https://ru.depositphotos.com/52350831/stock-photo-blue-shirt-isolated-on-white.html " , "quantity" : 100 },
+    {"id" : 5 , "productName" : " свитер " , "price" : 45 , "imageUrl" : " https://ru.depositphotos.com/14175242/stock-photo-sweater-with-a-pattern-of.html " , "quantity" : 59 },
+    {"id" : 6 , "productName" : " кардиган " , "price" : 50 , "imageUrl" : " https://ru.depositphotos.com/58622541/stock-photo-outdoors-portrait-of-a-young.html " , "quantity" : 80 },
+    {"id" : 7 , "productName" : " рубашка " , "price" : 35 , "imageUrl" : "https://ru.depositphotos.com/23680273/stock-photo-blue-shirt-isolated-on-white.html " , "quantity" : 99 },
+    {"id" : 8 , "productName" : "юбка " , "price" : 45 , "imageUrl" : " https://ru.depositphotos.com/4618500/stock-photo-jeans-skirt-on-white-background.html " , "quantity" : 110 },
+    {"id" : 9 , "productName" : " брюки " , "price" : 75 , "imageUrl" : " https://ru.depositphotos.com/19188669/stock-photo-close-up-of-mans-business.html " , "quantity" : 100 },
+    {"id" : 10 , "productName" : " платье " , "price" : 90 , "imageUrl" : " https://ru.depositphotos.com/8984940/stock-photo-brunette-in-waving-dress.html " , "quantity" : 150 },
+    {"id" : 11 , "productName" : " куртка " , "price" : 150 , "imageUrl" : " https://ru.depositphotos.com/10513998/stock-photo-red-jacket.html " , "quantity" : 65 },
+    {"id" : 12 , "productName" : " пальто " , "price" : 200 , "imageUrl" : " https://ru.depositphotos.com/5841828/stock-photo-beautiful-young-woman-in-red.html " , "quantity" : 100 },
+    {"id" : 13 , "productName" : " шорты " , "price" : 48 , "imageUrl" : " https://ru.depositphotos.com/25218147/stock-photo-mens-shorts-isolated-on-white.html " , "quantity" : 80 },
+    {"id" : 14 , "productName" : " ремень " , "price" : 90 , "imageUrl" : " https://ru.depositphotos.com/4256838/stock-photo-black-leather-belt.html " , "quantity" : 50 },
+    {"id" : 15 , "productName" : " сумка " , "price" : 150 , "imageUrl" : " https://ru.depositphotos.com/48877983/stock-photo-fashionable-woman-with-red-handbag.html " , "quantity" : 50 },
+    {"id" : 16 , "productName" : " сапоги " , "price" : 200 , "imageUrl" : " https://ru.depositphotos.com/24675037/stock-photo-womans-boots-isolated.html ", "quantity" : 80 },
+    {"id" : 17 , "productName" : " носки " , "price" : 1 , "imageUrl" : " https://ru.depositphotos.com/24034673/stock-photo-striped-socks-isolated-on-white.html " , "quantity" : 200 },
+    {"id" : 18 ,"productName" : " шарф " , "price" : 15 , "imageUrl" : " https://ru.depositphotos.com/14294251/stock-photo-braided-scarf.html " , "quantity" : 50 }
+  
+  ]
